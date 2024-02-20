@@ -1,0 +1,38 @@
+.indexpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e0e0e0; /* Light silver background */
+}
+
+.index {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #c0c0c0; /* Medium silver border */
+  border-radius: 10px;
+  background-color: #f0f0f0; /* Slightly darker silver background */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.head {
+  color: #808080; /* Dark silver color for the heading */
+}
+
+.IT, .DT {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 2px solid #808080; /* Dark silver border */
+  border-radius: 5px;
+  background-color: #fff; /* White background */
+  color: #000; /* Black text color */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.IT:hover, .DT:hover {
+  background-color: #808080; /* Dark silver color on hover */
+  color: #fff; /* White text color on hover */
+}

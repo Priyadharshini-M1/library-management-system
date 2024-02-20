@@ -1,0 +1,97 @@
+/* Assuming your Admin component is simple, you can customize it as needed */
+
+div {
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  color: #808080; /* Dark silver color for the heading */
+}
+
+/* You can add more specific styling for AddBookForm and BookList components if needed */
+.table {
+  margin-top: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #808080; /* Dark silver color for the heading */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #c0c0c0; /* Medium silver border */
+}
+
+th {
+  background-color: #f0f0f0; /* Slightly darker silver background for header */
+}
+
+tr:hover {
+  background-color: #f0f0f0; /* Slightly darker silver background on hover */
+}
+
+td {
+  color: #000; /* Black text color */
+}
+
+button {
+  background-color: #808080; /* Dark silver color for the button */
+  color: #fff; /* White text color */
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: #c0c0c0; /* Light silver color on hover */
+  color: #fff; /* White text color on hover */
+}
+/* Assuming you want the form to have a similar style as the other components */
+
+div {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2 {
+  color: #808080; /* Dark silver color for the heading */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 1px solid #c0c0c0; /* Medium silver border */
+}
+
+button {
+  background-color: #808080; /* Dark silver color for the button */
+  color: #fff; /* White text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: #c0c0c0; /* Light silver color on hover */
+  color: #fff; /* White text color on hover */
+}
